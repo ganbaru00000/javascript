@@ -1,4 +1,4 @@
-function RandomList(min, max, length) {
+function CreateList(min, max, length) {
   //0 < min < maxかつ整数であること
   //length 整数であること
   let rList = new Array();
@@ -7,7 +7,9 @@ function RandomList(min, max, length) {
     rList.push(Math.floor(Math.random() * ((max + 1) - min)) + min); 
   }
   
-  console.log(rList);
   return rList;
 
 }
+
+export default CreateList;
+
