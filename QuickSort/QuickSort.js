@@ -1,9 +1,11 @@
+'use strict';
+
 import rL from '../RandomList/RandomList.js'
 
 //pythonで作ったものをそのまま移植
 
-//10〜30の値のランダムの数値10個作成してListに格納
-let rList = rL(10,30,10);
+//10〜1000の値のランダムの数値100個作成してListに格納
+let rList = rL(10,1000,100);
 console.log('rList:' + rList)
 
 let left = 0;
