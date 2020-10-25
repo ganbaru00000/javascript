@@ -7,7 +7,7 @@ let rList = rL(10,30,10);
 console.log('rList:' + rList)
 
 let left = 0;
-let right = rList.length;
+let right = rList.length - 1;
 console.log('l:' + left + 'r:' + right)
 
 quicksort(left,right);
